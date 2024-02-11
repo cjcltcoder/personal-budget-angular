@@ -14,6 +14,7 @@ import { P404Component } from './p404/p404.component';
 import { ArticleComponent } from './article/article.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { ContactComponent } from './contact/contact.component';
+import { D3PieChartComponent } from './d3-pie-chart/d3-pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ContactComponent } from './contact/contact.component';
     P404Component,
     ArticleComponent,
     BreadcrumbsComponent,
-    ContactComponent
+    ContactComponent,
+    D3PieChartComponent
   ],
   imports: [
     BrowserModule,
